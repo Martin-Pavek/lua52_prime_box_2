@@ -86,6 +86,7 @@ c2= "magick " .. file_output_name .. " " .. string.sub(file_output_name,1,#file_
 -- prikaz convert umi jeste taky prevadet z txt do pdf a z bmp do pdf
 -- convert je soucasti baliku imagemagick a prevde soubor txt do bmp
 -- https://imagemagick.org/index.php
+-- prikaz magick je alternativa pri ve verzi pro widows https://imagemagick.org/script/download.php#windows
 print(c2)
 os.execute(c2)
 
