@@ -84,6 +84,8 @@ os.execute(c1)
 
 c2= "magick " .. file_output_name .. " " .. string.sub(file_output_name,1,#file_output_name -3 ) .. "pdf"
 -- prikaz convert umi jeste taky prevadet z txt do pdf a z bmp do pdf
+-- convert je soucasti baliku imagemagick a prevde soubor txt do bmp
+-- https://imagemagick.org/index.php
 print(c2)
 os.execute(c2)
 
