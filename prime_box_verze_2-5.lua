@@ -3,7 +3,7 @@
 -- a sazi je do rastru x,y ktery se da menit
 
 
---file_name_input = "C:/Users/DELL/Documents/zaloha/10mega.txt"
+--file_name_input = "10mega.txt"
 file_name_input = "10mega.txt"
 
 
